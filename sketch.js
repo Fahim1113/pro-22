@@ -53,7 +53,7 @@ function draw() {
   //console.log(star.y);
 
   //write code to stop star in the hand of fairy
-	if(star.y>470 && star.position.y>470){
+	if(star.y>550 && star.position.y>550){
 		Matter.Body.setStatic(starBody,true); 
 	}
 
